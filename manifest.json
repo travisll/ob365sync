@@ -1,0 +1,10 @@
+{
+  "id": "office365-calendar-sync",
+  "name": "Office 365 Calendar Sync",
+  "version": "0.2.0",
+  "minAppVersion": "1.5.0",
+  "description": "Two-way sync between an Office 365 calendar and markdown notes in your vault.",
+  "author": "OpenAI Codex",
+  "authorUrl": "https://openai.com",
+  "isDesktopOnly": true
+}

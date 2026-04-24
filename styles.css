@@ -1,0 +1,73 @@
+.office365-sidebar-view {
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.office365-sidebar-header h2 {
+  margin: 0;
+}
+
+.office365-sidebar-subtitle {
+  margin-top: 0.35rem;
+  color: var(--text-muted);
+}
+
+.office365-note-ribbon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.office365-note-ribbon-button {
+  border: 1px solid var(--background-modifier-border);
+  background: linear-gradient(180deg, var(--background-secondary), var(--background-primary-alt));
+  color: var(--text-normal);
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.office365-note-ribbon-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.office365-sidebar-summary,
+.office365-sidebar-empty,
+.office365-sidebar-recurrence,
+.office365-sidebar-details,
+.office365-sidebar-controls {
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+  border-radius: 14px;
+  padding: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.office365-recurrence-summary {
+  color: var(--text-muted);
+  margin-top: 0;
+}
+
+.office365-sidebar-recurrence h3 {
+  margin-top: 0;
+}
+
+.office365-sidebar-details h3,
+.office365-sidebar-controls h3 {
+  margin-top: 0;
+}
+
+.office365-sidebar-textarea {
+  width: 100%;
+  min-height: 6.5rem;
+  resize: vertical;
+  border-radius: 10px;
+  border: 1px solid var(--background-modifier-border);
+  background: var(--background-primary);
+  color: var(--text-normal);
+  padding: 0.7rem;
+  margin: 0.35rem 0 0.85rem;
+}

@@ -2,6 +2,29 @@
 
 Desktop-first Obsidian plugin that syncs Office 365 calendar events to markdown notes and pushes note edits back to Microsoft 365 through Microsoft Graph.
 
+## Repository Structure
+
+- `src/`: plugin source code
+- `tests/`: automated tests
+- `.github/workflows/`: CI and release automation
+- `dist/`: generated local release bundles
+
+## Installation
+
+### Manual
+
+Download the latest release from the GitHub Releases page and copy these files into:
+
+```text
+<vault>/.obsidian/plugins/office365-calendar-sync/
+```
+
+- `manifest.json`
+- `main.js`
+- `styles.css`
+
+Then enable the plugin in Obsidian Community Plugins.
+
 ## What this build does
 
 - Sign in with Microsoft using device code flow
@@ -95,6 +118,7 @@ npm test
 
 ```bash
 npm install
+npm test
 npm run build
 npm run release
 ```

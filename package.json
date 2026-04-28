@@ -3,6 +3,14 @@
   "version": "0.2.0",
   "description": "Obsidian plugin for two-way Office 365 calendar sync",
   "main": "main.js",
+  "homepage": "https://github.com/travisll/ob365sync",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travisll/ob365sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/travisll/ob365sync/issues"
+  },
   "scripts": {
     "build": "node esbuild.config.mjs production",
     "dev": "node esbuild.config.mjs",
@@ -17,7 +25,7 @@
     "microsoft-graph",
     "calendar"
   ],
-  "author": "",
+  "author": "Travis Llewellyn",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^24.6.0",

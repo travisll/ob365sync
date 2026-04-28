@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "minAppVersion": "1.5.0",
   "description": "Two-way sync between an Office 365 calendar and markdown notes in your vault.",
-  "author": "OpenAI Codex",
-  "authorUrl": "https://openai.com",
+  "author": "Travis Llewellyn",
+  "authorUrl": "https://github.com/travisll",
   "isDesktopOnly": true
 }

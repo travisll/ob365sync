@@ -6,6 +6,7 @@ Desktop-first Obsidian plugin that syncs Office 365 calendar events to markdown 
 
 - `src/`: plugin source code
 - `tests/`: automated tests
+- `docs/`: maintainer documentation
 - `.github/workflows/`: CI and release automation
 - `dist/`: generated local release bundles
 
@@ -113,6 +114,11 @@ Inside the sidebar you can now:
 ```bash
 npm test
 ```
+
+## Project Docs
+
+- [CHANGELOG.md](./CHANGELOG.md)
+- [docs/RELEASE_CHECKLIST.md](./docs/RELEASE_CHECKLIST.md)
 
 ## Development
 
